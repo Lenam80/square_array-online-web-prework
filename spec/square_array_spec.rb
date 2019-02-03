@@ -12,7 +12,7 @@ describe '#square_array' do
   it 'calls on each' do
     numbers = [1,2,3]
     expect(numbers).to receive(:each)
-    square_array(numbers)
+    square_array(2)
   end
 
   it 'should square the elements in an array' do
